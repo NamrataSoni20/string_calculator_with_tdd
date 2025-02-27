@@ -15,7 +15,7 @@ RSpec.describe 'add' do
   end
 
   it 'returns the sum of numbers separated by space' do
-    expect(Add.add('10 50 100')).to eq(160)
+    expect(Add.add('10,50,100')).to eq(160)
   end
   
 end
