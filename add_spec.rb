@@ -9,5 +9,9 @@ RSpec.describe 'add' do
   it 'returns 0 for an empty string' do
     expect(Add.add('')).to eq(0)
   end
+
+  it 'returns the number itself for a single number' do
+    expect(Add.add('5')).to eq(5)
+  end
   
 end
